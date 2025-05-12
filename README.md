@@ -48,13 +48,16 @@ Instalación de dependencias:
 
 ```bash
 pip install tensorflow opencv-python mediapipe numpy
+```
 
 ## 🏁 Ejecución
 
+```
 python prepare_dataset.py
 python train_cnn.py
 python convert_to_tflite.py
 python main_cnn_inference.py
+```
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Para colaborar:
